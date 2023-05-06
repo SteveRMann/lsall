@@ -13,34 +13,32 @@ To download the script to your Ubuntu computer using the terminal, you can follo
 ```
 cd ~
 ```
-
 3. Clone the Github repository using the following command:
 ```
 git clone https://github.com/SteveRMann/lsall.git
 ```
 This command will create a new directory named `lsall` in your current directory and download the contents of the repository into it.
-
 4. Navigate into the `lsall` directory using the following command:
 ```
 cd lsall
 ```
-
-5. You can now use the script as per your requirements.
-
-Note: You will need to have Git installed on your Ubuntu computer to use the `git clone` command. If you do not have Git installed, you can install it using the following command:
-```
-sudo apt-get install git
-
-# Useage
-There is no installation. Just put the script anywhere you wish, make sure it is executable (chmod +x)
-Some of the lsxxx commands require that they be run by a sudo user.
-
+5. You can now use the script.
 sudo ./lsall.sh <options>
-
+```
   Options include:
   -h, --help   How to use the script.
   -n, --net    Perform a local network scan. This is an option because the network scan takes several minutes.
                My preferred tool for a local network scan is the Advanced IP Scanner (www.advanced-ip-scanner.com)
+```
+
+Note: You will need to have Git installed on your Ubuntu computer to use the `git clone` command. If you do not have Git installed, you can install it using the following command:
+```
+sudo apt-get install git
+```
+
+# Useage
+There is no installation. Just put the script anywhere you wish, make sure it is executable (chmod +x)
+Some of the lsxxx commands require that they be run by a sudo user.
 
 The script has been tested on Ubuntu and Raspberry Pi computers.  If you use this script, please provide feedback 
 with your experience and suggestions for improvement.
