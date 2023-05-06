@@ -1,4 +1,4 @@
-# lnstall
+# About
 A loosely organized collection of various commands to obtain information about a Linux computer.
 
 My hobby is to take discarded computers and install Ubuntu on them, then donate them to underprivileged kids.
@@ -6,6 +6,7 @@ I frequently use various lsxxx commands to discover what is in the computer.
 
 This Bash shell script will do all of these information searches in a single script.
 
+# Install
 To download the script to your Ubuntu computer using the terminal, you can follow these steps:
 
 1. Open the terminal on your Ubuntu computer.
