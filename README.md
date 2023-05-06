@@ -10,7 +10,13 @@ This Bash shell script will do all of these information searches in a single scr
 There is no installation. Just put the script anywhere you wish, make sure it is executable (chmod +x)
 Some of the lsxxx commands require that they be run by a sudo user.
 
-sudo ./lsall.sh
+sudo ./lsall.sh <options>
+
+  Options include:
+  -h, --help   How to use the script.
+  -n, --net    Perform a local network scan. This is an option because the network scan takes several minutes.
+               My preferred tool for a local network scan is the Advanced IP Scanner (www.advanced-ip-scanner.com)
 
 The script has been tested on Ubuntu and Raspberry Pi computers.  If you use this script, please provide feedback 
 with your experience and suggestions for improvement.
+
