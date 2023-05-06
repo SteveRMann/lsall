@@ -6,6 +6,14 @@ I frequently use various lsxxx commands to discover what is in the computer.
 
 This Bash shell script will do all of these information searches in a single script.
 
+Note- This script assumes that the computer is a member of a workgroup. Either through Samba or winbind.
+This is a summary of the commands used in this script:
+
+aplay df  free  getent  ip  lpstat  lsb_release lscpu
+lspci lsusb mv  nmap  uname wget
+
+
+
 # Install
 To download the script to your Ubuntu computer using the terminal, you can follow these steps:
 
