@@ -36,7 +36,7 @@ sudo ./lsall.sh <options>
 
 Note: You will need to have Git installed on your Ubuntu computer to use the `git clone` command. If you do not have Git installed, you can install it using the following command:
 ```
-sudo apt-get install git
+sudo apt install git
 ```
 
 # Useage
