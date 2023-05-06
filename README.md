@@ -8,11 +8,13 @@ This Bash shell script will do all of these information searches in a single scr
 
 Note- This script assumes that the computer is a member of a workgroup. Either through Samba or winbind.
 This is a summary of the commands used in this script:
+
 aplay  df  free  getent  ip
 
 lpstat  lsb_release  lscpu  lspci
 
 lsusb  mv  nmap  uname  wget
+
 
 
 
