@@ -10,6 +10,7 @@ This Bash shell script will do all of these information searches in a single scr
 To download the script to your Ubuntu computer using the terminal, you can follow these steps:
 
 1. Open the terminal on your Ubuntu computer.
+
 2. Navigate to the directory where you want to download the script. For example, if you want to download the script to your home directory, you can use the following command:
 ```
 cd ~
@@ -19,6 +20,7 @@ cd ~
 git clone https://github.com/SteveRMann/lsall.git
 ```
 This command will create a new directory named `lsall` in your current directory and download the contents of the repository into it.
+
 4. Navigate into the `lsall` directory using the following command:
 ```
 cd lsall
