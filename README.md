@@ -20,3 +20,4 @@ sudo ./lsall.sh <options>
 The script has been tested on Ubuntu and Raspberry Pi computers.  If you use this script, please provide feedback 
 with your experience and suggestions for improvement.
 
+If you download the script first to a Windows PC, run dos2pc on it after moving it to the Linux computer.
