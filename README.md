@@ -19,9 +19,9 @@ lsusb  mv  nmap  uname  wget
 
 
 # Install
-To download the script to your Ubuntu computer using the terminal, you can follow these steps:
+To download the script to your Linux computer using the terminal, you can follow these steps:
 
-1. Open the terminal on your Ubuntu computer.
+1. Open the terminal on your Linux computer.
 
 2. Navigate to the directory where you want to download the script. For example, if you want to download the script to your home directory, you can use the following command:
 ```
@@ -46,7 +46,7 @@ sudo ./lsall.sh <options>
                My preferred tool for a local network scan is the Advanced IP Scanner (www.advanced-ip-scanner.com)
 ```
 
-Note: You will need to have Git installed on your Ubuntu computer to use the `git clone` command. If you do not have Git installed, you can install it using the following command:
+Note: You will need to have Git installed on your Linux computer to use the `git clone` command. If you do not have Git installed, you can install it using the following command:
 ```
 sudo apt install git
 ```
