@@ -37,7 +37,10 @@ This command will create a new directory named `lsall` in your current directory
 ```
 cd lsall
 ```
-5. Make the script executable (chmod +x lsall.sh)
+5. Make the script executable 
+```
+chmod +x lsall.sh
+```
 
 6. You can now use the script.
 sudo ./lsall.sh <options>
