@@ -43,6 +43,7 @@ chmod +x lsall.sh
 ```
 
 6. You can now use the script.
+```
 sudo ./lsall.sh <options>
 ```
   Options include:
