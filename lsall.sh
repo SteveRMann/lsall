@@ -211,10 +211,10 @@ EOM
 #End of NUC only.
 
 else
-  #Raspberry Pi only:  
-  BOARDVENDOR=$(cat /proc/device-tree/model | cut -d ' ' -f 1)
-  BOARDNAME=$(cat /proc/device-tree/model | cut -d ' ' -f 2-)
-  BOARDSERIAL=$(cat /proc/device-tree/serial-number)
+  #Raspberry Pi only:
+  BOARDVENDOR=$(cat /proc/device-tree/model | tr -d '\0' | cut -d ' ' -f 1)
+  BOARDNAME=$(cat /proc/device-tree/model | tr -d '\0' | cut -d ' ' -f 2-)
+  BOARDSERIAL=$(cat /proc/device-tree/serial-number | tr -d '\0')
   BOARDVERSION=$(grep "Revision" /proc/cpuinfo | uniq | awk -F ":" '{print $2}' | tr -d ' ')
   #Pick one...
   COMPUTERSERIAL=$(sudo cat /proc/cpuinfo | grep Serial | cut -d ' ' -f 2)
@@ -572,3 +572,20 @@ if [ "$SCAN_ENABLED" = true ]; then
     fi
   done
 fi
+
+# The -a option is used to declare an array, and MAC is the name of the array.
+# In the loop, we are using ${MAC[$i]} to access the i-th element of the MAC array.
+#
+# The -Pn option skips the host discovery stage to speed up the scanning process.
+# However, using -Pn can result in false positives or missed hosts, so it should
+# be used with caution.
+#
+# In this example, the printf command is used to format the output with four columns.
+# The %15s, %25s, %18s, and %s are format specifiers for the columns, and the - flag
+# is used to left-align the text. The values "IP", "HOST", "MAC", and "Manufacturer"
+# are passed as arguments to printf to specify the column headers.
+#
+#In this example, the if statement checks if the ${MAC[$i]} variable is non-empty using
+#the -n flag with the [ command. If the variable is non-empty, the echo statement is executed,
+#printing the MAC address for the corresponding IP address.
+#############################
