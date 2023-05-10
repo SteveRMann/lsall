@@ -16,6 +16,9 @@ lpstat  lsb_release  lscpu  lspci
 lsusb  mv  nmap  uname  wget
 
 
+# NOTE:
+The output is similar to: sudo lshw -html > mnt/z/xyz.html
+
 
 
 # Install
