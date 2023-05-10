@@ -53,7 +53,9 @@ sudo ./lsall.sh <options>
   -h, --help   How to use the script.
   -n, --net    Perform a local network scan. This is an option because the network scan takes several minutes.
                My preferred tool for a local network scan is the Advanced IP Scanner (www.advanced-ip-scanner.com)
+               
                Or
+               
                netdiscover -i eno1 -r 192.168.1.0/24
 ```
 
