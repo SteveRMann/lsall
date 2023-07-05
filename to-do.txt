@@ -1,0 +1,6 @@
+TO DO:
+
+Add lshw
+The lshw command can provide detailed information about your hardware, including disks.
+  sudo lshw -class disk
+
